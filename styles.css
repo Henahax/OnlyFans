@@ -1,0 +1,31 @@
+html {
+  background-color: #303030;
+  color: lightgrey;
+  font-family: Helvetica;
+  text-shadow: 1rem 1rem 2rem #0f0f0f;
+}
+
+h1{
+    margin:4rem;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.fanContainer{
+    width: fit-content;
+    display: flex;
+    margin:auto;
+    flex-direction: column;
+}
+
+i {
+  font-size: 8rem;
+  margin: 2rem;
+  width: fit-content;
+}
+
+@media (min-width: 1024px) {
+    .fanContainer{
+    flex-direction: row;
+    }
+}
